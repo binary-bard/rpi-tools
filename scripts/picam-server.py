@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Based on picam example - https://picamera.readthedocs.io/en/release-1.13/recipes2.html#web-streaming
+# From picam example - https://picamera.readthedocs.io/en/release-1.13/recipes2.html#web-streaming
 
 import io
 import picamera
