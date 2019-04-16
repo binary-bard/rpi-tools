@@ -88,7 +88,7 @@ def main():
  
   while True:
  
-    ips = check_output(['hostname', '--all-ip-addresses']).splitlines()
+    ips = check_output(['hostname', '--all-ip-addresses']).split()
     for ip in ips:
       lcd_string("-- IP Addresses: --", LCD_LINE_1,2)
       lcd_string(ip, LCD_LINE_3, 2)
